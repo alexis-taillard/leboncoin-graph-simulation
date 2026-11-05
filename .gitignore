@@ -1,0 +1,22 @@
+# Données générées par la simulation
+events/
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Spark (fichiers temporaires)
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+.crc
+*.crc
+
+# Notebooks et système
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
